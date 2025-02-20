@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buscador de Juegos PC</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Buscador de Juegos PC</h1>
+  <div>
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Escribe el nombre del juego..."
+    />
+    <select id="sortSelect">
+      <option value="default">Ordenar por</option>
+      <option value="priceAsc">Precio Ascendente</option>
+      <option value="priceDesc">Precio Descendente</option>
+      <option value="alphabetical">Alfabético</option>
+    </select>
+  </div>
+
+  <div id="results"></div>
+  <div id="gameDetail"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
