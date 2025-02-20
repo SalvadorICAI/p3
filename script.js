@@ -16,7 +16,7 @@ searchInput.addEventListener('input', () => {
   } else {
     resultsDiv.innerHTML = '';
   }
-  console.log(query)
+  
 });
 
 // Evento para cambiar el orden de los resultados
